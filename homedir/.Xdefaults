@@ -1,0 +1,16 @@
+# urxvt settings
+URxvt.geometry: 110x33
+URxvt.background: black
+URxvt.foreground: white
+URxvt.backgroundPixmap: new_year.jpg;100x100+50+50
+URxvt.path: /home/lilfox/images
+URxvt.transparent: true
+URxvt.fading: 5
+URxvt.shading: 50
+URxvt.tintColor: white
+URxvt.fadeColor: black
+#depends on media-fonts/terminus-font
+URxvt.font: -xos4-terminus-*-*-*-*-*-160-72-72-*-*-iso10646-*
+URxvt.perl-ext-common: default,tabbed
+URxvt.pastableTabs: true
+
