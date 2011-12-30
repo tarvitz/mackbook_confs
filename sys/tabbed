@@ -307,11 +307,12 @@ sub tab_key_press {
    my ($self, $tab, $event, $keysym, $str) = @_;
 
    if ($event->{state} & urxvt::ShiftMask) {
-      if ($keysym == 0xff51 || $keysym == 0xff53) {
+      
+      if ($keysym == 0x7b || $keysym == 0x7d) {
          my ($idx) = grep $self->{tabs}[$_] == $tab, 0 .. $#{ $self->{tabs} };
 
-         --$idx if $keysym == 0xff51;
-         ++$idx if $keysym == 0xff53;
+         --$idx if $keysym == 0x7b;
+         ++$idx if $keysym == 0x7d;
 
          $self->make_current ($self->{tabs}[$idx % @{ $self->{tabs}}]);
          
@@ -323,7 +324,7 @@ sub tab_key_press {
       #}
    }
    elsif ($event->{state} & urxvt::Mod1Mask){
-        if ($keysym == 0xff54){
+        if ($keysym == 0x74){
             $self->new_tab;
             return 1;
         }
