@@ -327,8 +327,8 @@ sub tab_key_press {
         if ($keysym == 0x5b || $keysym == 0x5d || $keysym == 0x6df || $keysym == 0x6c8) {
          my ($idx) = grep $self->{tabs}[$_] == $tab, 0 .. $#{ $self->{tabs} };
 
-         --$idx if $keysym == 0x5b || $keysym == 0x6df;
-         ++$idx if $keysym == 0x5d || $keysym == 0x6c8;
+         --$idx if $keysym == 0x5b || $keysym == 0x6c8;
+         ++$idx if $keysym == 0x5d || $keysym == 0x6df;
 
          $self->make_current ($self->{tabs}[$idx % @{ $self->{tabs}}]);
          
