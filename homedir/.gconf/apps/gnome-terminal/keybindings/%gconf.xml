@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="move_tab_right" mtime="1326225791" type="string">
+		<stringvalue>&lt;Ctrl&gt;Right</stringvalue>
+	</entry>
+	<entry name="move_tab_left" mtime="1326225826" type="string">
+		<stringvalue>&lt;Ctrl&gt;Left</stringvalue>
+	</entry>
+	<entry name="paste" mtime="1326224807" type="string">
+		<stringvalue>&lt;Alt&gt;v</stringvalue>
+	</entry>
+	<entry name="new_window" mtime="1326224696" type="string">
+		<stringvalue>&lt;Ctrl&gt;&lt;Shift&gt;n</stringvalue>
+	</entry>
+	<entry name="close_tab" mtime="1326224478" type="string">
+		<stringvalue>&lt;Alt&gt;w</stringvalue>
+	</entry>
+	<entry name="prev_tab" mtime="1326225727" type="string">
+		<stringvalue>&lt;Alt&gt;bracketleft</stringvalue>
+	</entry>
+	<entry name="next_tab" mtime="1326225704" type="string">
+		<stringvalue>&lt;Alt&gt;bracketright</stringvalue>
+	</entry>
+	<entry name="copy" mtime="1326224416" type="string">
+		<stringvalue>&lt;Alt&gt;c</stringvalue>
+	</entry>
+	<entry name="new_tab" mtime="1326224389" type="string">
+		<stringvalue>&lt;Alt&gt;T</stringvalue>
+	</entry>
+</gconf>
